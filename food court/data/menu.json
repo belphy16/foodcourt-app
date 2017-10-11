@@ -1,0 +1,9 @@
+{
+    "breakfast":["Idli", "Vada", "Puri", "Bread", "Masala Dosa", "Set Dosa", "Onion Uttappa"],
+    "lunch":["Mini Meals", "Kerala Paratha", "Fried Rice", "Veg Biriyani", "Chapathi"],
+    "snacks":["Upma", "Buns", "Pakoda", "Chats", "Paddu"],
+    "special":["Dal Obbatu with Ghee"],
+    "juice":["Mango", "Banana", "Orange", "Grapes", "Watermelon", "Pomogranate"],
+    "dosacorner":["Wheat dosa", "Podi dosa", "Masala Dosa", "Plain dosa"],
+    "chai":["Tea", "Coffee", "Badam Milk"]
+}

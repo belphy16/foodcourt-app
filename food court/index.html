@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="myApp">
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.1/angular.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" href="css/index.css" rel="stylesheet"/>
+		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    </head>
+    <style>
+        .c1{
+            order:1;
+        }
+        .c2{
+            order:2;
+            margin-left: 25%;
+            margin-right: 25%;
+        }
+        .c3{
+            order:3;
+            margin-left: 37%;
+            margin-right: 37%;
+        }
+    </style>
+    <body>
+        <div class="container" align="center" style="margin: 0 auto;width: 100%; max-width: 1366px;">
+            <div class="row" style="display: flex;flex-wrap: wrap;">
+                <div id="menu" class="c1">
+                    <button class="button button8" disabled>Breakfast</button>
+                    <button class="button button7" disabled>Lunch</button>
+                    <button class="button button6" disabled>Evening Snacks</button>
+                    <button class="button button5" disabled>Today's Special</button>
+                    <button class="button button4" disabled>Juice Junction</button>
+                    <button class="button button3" disabled>Paratha Garam</button>
+                    <button class="button button2" disabled>Dosa Corner</button>
+                    <button class="button button1" disabled>Chai Point</button>
+                </div>
+                <div id='title' class="c2">
+                    <h5 id="username"></h5>
+                    <h1>Food Court App</h1>
+                    <h2>Glance through what's in your food court today!</h2>
+                </div>
+                <div  align="center" class="c3">
+                    <div id='content' style="display: none">
+                        <!-- Menu list goes here -->
+                    </div>
+                </div>
+                <div class="c3" align="center" style="max-width: 350px;">
+                    <h2 id="form-title">Login Form</h2>
+                    <form ng-controller="formController" style="margin: 0px;width: 100%">
+                        <div class="container">
+                            <label><b>Username</b></label>
+                            <input id="usr" type="text" placeholder="Enter Username" name="uname" required>
+                            <label><b>Password</b></label>
+                            <input id="pwd" type="password" placeholder="Enter Password" name="psw" required>
+                            <button type="submit" class="login">Login</button>
+            				<script src="js/jquery-3.1.1.min.js"></script>
+            				<script src="js/index.js"></script>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
